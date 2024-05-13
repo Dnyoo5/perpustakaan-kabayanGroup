@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+  box-sizing: border-box;
+}
+
+.isi {
+  width: 100%;
+  height: 300px;
+  background-image: url("img/bg.jpeg");
+  opacity: 0.5;
+}
+
+.container h2 {
+  color: black;
+  padding: 10px 10px 0 10px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.work .work-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+
+  flex-wrap: wrap;
+  max-width: 2000px;
+  margin: auto;
+  margin-bottom: 7rem;
+}
+.work .work-parent .img {
+  margin: 20px 20px;
+}
+.work .work-parent .img img {
+  background-size: cover;
+  width: 200px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 15px;
+}
+.work .work-parent .img {
+  transition: 0.5s ease;
+}
+
+.work .work-parent .img:hover {
+  transform: scale(1.1);
+}
+
+.container h3 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.work .work-parent .id {
+  margin-bottom: 4rem;
+}
+
+.id {
+  text-align: center;
+}
+
+.id a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.pinjam {
+  font-size: 15px;
+  font-weight: bold;
+  width: 100px;
+  height: 30px;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+.pinjam a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: block;
+  line-height: 25px;
+}
+
+.pinjam:hover {
+  background-color: transparent;
+  border: 1px solid black;
+}
